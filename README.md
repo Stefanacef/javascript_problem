@@ -1,2 +1,2 @@
-# javascript_problem
+# javascript_problems
 problems solved javascript
