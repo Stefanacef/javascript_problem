@@ -7,6 +7,6 @@ const rev = function (num) {
   .reverse()
   .join("");
 
-  return numRev;
+  return parseInt(numRev);
 };
 console.log(rev(number));
