@@ -12,3 +12,12 @@ else return false;
 
 }
 console.log(check(word))
+
+
+///////////////OR
+const check = function (wor) {
+  const check = wor.split("").reverse().join("");
+
+  return check === wor;
+};
+console.log(check(word));
