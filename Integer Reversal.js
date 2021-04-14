@@ -10,3 +10,10 @@ const rev = function (num) {
   return parseInt(numRev);
 };
 console.log(rev(number));
+
+
+////////////OR
+const num =number.toString().split('').reduce((acc,val)=>{
+  return acc=val+acc
+},'')
+console.log(num)
