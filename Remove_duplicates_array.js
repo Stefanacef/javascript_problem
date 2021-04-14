@@ -13,3 +13,15 @@ return b;
 
 }
 console.log(remduplicates(a))
+
+
+///OR
+
+
+function s (str){
+reverse='';
+for(ch of str){
+  reverse=ch+revese;
+}
+console.log(revesre);
+}('stefana')
