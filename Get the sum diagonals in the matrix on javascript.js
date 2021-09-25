@@ -5,16 +5,15 @@ let arr = [
   [4, 4, -2, 1],
 ];
 function diagonalDifference(arr) {
-let left=[]
-let right=[]
+let left=[];
+let right=[];
 arr.map((e,i)=>{
 return left.push(arr[i][i])
-})
+});
 arr.map((e,i)=>{
 return right.push(arr[i][arr.length-i-1])
-})
-console.log(right)
+});
 let dif = left.reduce((acc,e)=>acc+e) -right.reduce((acc,e)=>acc+e)
-return Math.abs(dif)
+return Math.abs(dif);
 }
 console.log(diagonalDifference(arr))
